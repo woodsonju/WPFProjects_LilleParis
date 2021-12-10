@@ -1,0 +1,44 @@
+﻿<Window x:Class="AppEchangeDeLivre.ExchangeAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppEchangeDeLivre"
+        mc:Ignorable="d"
+        Title="ExchangeAddWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="--------------Echange---------------" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Livre : " Grid.Row="1" Grid.Column="0" Margin="5" />
+        <TextBlock x:Name="TBBook" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+        <TextBlock Text="Propriétaire actuel :  " Grid.Row="2" Grid.Column="0" Margin="5" />
+        <TextBlock x:Name="TBActualOwner" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+        <TextBlock Text="Nouveau proprio :  " Grid.Row="3" Grid.Column="0" Margin="5" />
+        <ComboBox x:Name="ComboNewOwner" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+        <Button x:Name="BtnSave" Content="Valider l'échange"  Grid.Row="4" Grid.Column="1" Margin="5" Click="BtnSave_Click" RenderTransformOrigin="0.5,0.5"
+              Style="{StaticResource myStyle1}"  >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>

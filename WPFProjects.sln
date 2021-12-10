@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEchangeDeLivre", "AppEchangeDeLivre\AppEchangeDeLivre.csproj", "{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2792DDFC-9EA0-419C-8FE6-B08C977ED145}
+	EndGlobalSection
+EndGlobal
