@@ -1,0 +1,24 @@
+﻿<Window x:Class="AppQuizz.QuizChoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppQuizz"
+        mc:Ignorable="d"
+        Title="QuizChoiceWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing" >
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="57*" />
+            <RowDefinition Height="64*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="173" />
+            <ColumnDefinition Width="428" />
+        </Grid.ColumnDefinitions>
+        <Label Content="Choisir le QCM" Grid.Row="0" Grid.Column="0" Target="{Binding ElementName=ComboQuizzes}" Grid.ColumnSpan="2"/>
+        <ComboBox Name="ComboQuizzes" Grid.Row="0" Grid.Column="1" Height="40"/>
+
+        <Button Name="btnStart" Height="40" Content="Démarrer" Click="btnStart_Click" Grid.Row="1" Grid.Column="0"
+                Grid.ColumnSpan="2"/>
+    </Grid>
+</Window>

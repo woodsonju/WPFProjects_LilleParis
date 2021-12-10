@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEchangeDeLivre", "AppEchangeDeLivre\AppEchangeDeLivre.csproj", "{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppQuizz", "AppQuizz\AppQuizz.csproj", "{A9A529CA-B7FD-4DA1-8B47-4DB96F8C5AA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20BF414B-8E3E-4A6C-85A9-E77C2EF06F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A529CA-B7FD-4DA1-8B47-4DB96F8C5AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A529CA-B7FD-4DA1-8B47-4DB96F8C5AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A529CA-B7FD-4DA1-8B47-4DB96F8C5AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A529CA-B7FD-4DA1-8B47-4DB96F8C5AA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
