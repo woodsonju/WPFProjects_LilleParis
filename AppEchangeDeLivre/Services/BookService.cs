@@ -35,7 +35,7 @@ namespace AppEchangeDeLivre.Services
         public void ValidateExchange(Book book, int newOwnerId)
         {
             BookExchange exc = new BookExchange { Book = book, BookId = book.Id, OldOwnerId = book.OwnerId };
-
+            exc.CreationDate = DateTime.Now;
             book.OwnerId = newOwnerId; //On met à jour le nouveau propriétaire du livre
             book.Owner = null;
 

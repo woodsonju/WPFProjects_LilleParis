@@ -40,6 +40,10 @@ namespace AppEchangeDeLivre
                 w.Owner = this;
                 w.ShowDialog();
             }
+            else
+            {
+                MessageBox.Show("Vous devez choisir un livre", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
